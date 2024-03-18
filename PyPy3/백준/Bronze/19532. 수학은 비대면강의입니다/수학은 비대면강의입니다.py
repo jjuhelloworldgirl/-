@@ -1,5 +1,5 @@
 def solve_equations(a, b, c, d, e, f):
-    # 연립 방정식 풀기
+    # 연립 방정식 풀기(가우스 소거법)
     determinant = a * e - b * d
     if determinant != 0:
         x = (c * e - b * f) // determinant
